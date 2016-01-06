@@ -172,7 +172,7 @@ public class MainActivity extends ActionBarActivity implements AdapterView.OnIte
 class MyAdapter extends BaseAdapter
 {
     private Context context;
-    String[] ShopList={"Home","Event","Mail","Shop","Travel"};
+    String[] ShopList={"Home","Events","Mail","Shop","Travel"};
     int[] icon={R.drawable.home_logo,R.drawable.event_logo,R.drawable.mail_logo,R.drawable.shop_logo,R.drawable.travel_logo};
 
     MyAdapter(Context context)
